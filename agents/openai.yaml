@@ -1,0 +1,13 @@
+interface:
+  display_name: 议论文逐段精评
+  short_description: 逐段逐章评分、核查全文论证，并在 Word 原文中添加精简修改批注
+  default_prompt: 用议论文逐段精评审阅这篇文章，逐段和逐章评分，检查全文论证，在原 Word 的批注中写明问题和精简修改建议。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
